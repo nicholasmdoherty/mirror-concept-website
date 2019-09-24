@@ -1,0 +1,32 @@
+/* Navbar Classes */
+
+.main-navbar {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 9vh;
+  width: 100%;
+}
+
+.navbar-ghost {
+  height: 7vh;
+  width: 100%;
+}
+
+/* Small breakpoint */
+@media screen and (min-width: 576px) {
+}
+
+/* Medium breakpoint */
+@media screen and (min-width: 768px) {
+}
+
+/* Large breakpoint */
+@media screen and (min-width: 992px) {
+}
+
+/* Extra large breakpoint */
+@media screen and (min-width: 1200px) {
+}
