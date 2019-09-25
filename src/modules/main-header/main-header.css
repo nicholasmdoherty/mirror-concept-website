@@ -1,0 +1,49 @@
+.main-header {
+  background-image: url("/assets/img/header-clothing-image.jpeg");
+  height: 85vh;
+  background-size: cover;
+  background-position-x: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.main-header-content {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 2rem;
+  max-width: 80%;
+}
+
+.content-button-column {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content-text-column {
+  text-align: left;
+}
+
+/* Small breakpoint */
+@media screen and (max-width: 576px) {
+  .content-button-column {
+    justify-content: center;
+  }
+
+  .content-text-column {
+    text-align: center;
+  }
+}
+
+/* Medium breakpoint */
+@media screen and (max-width: 768px) {
+}
+
+/* Large breakpoint */
+@media screen and (max-width: 992px) {
+}
+
+/* Extra large breakpoint */
+@media screen and (max-width: 1200px) {
+}
