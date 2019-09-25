@@ -13,6 +13,7 @@
   background-color: rgba(255, 255, 255, 1);
   padding: 2rem;
   max-width: 80%;
+  box-shadow: 0px 1px 7px 2px #222;
 }
 
 .content-button-column {
@@ -23,6 +24,11 @@
 
 .content-text-column {
   text-align: left;
+}
+
+.content-text {
+  font-size: 3.5rem;
+  font-weight: 600;
 }
 
 /* Small breakpoint */
@@ -38,6 +44,9 @@
 
 /* Medium breakpoint */
 @media screen and (max-width: 768px) {
+  .content-text {
+    font-size: 2rem;
+  }
 }
 
 /* Large breakpoint */

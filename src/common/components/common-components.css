@@ -11,18 +11,30 @@
   z-index: 1100;
 }
 
+.navbar-title-text {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.navbar-button {
+  font-weight: 600;
+}
+
 /* Small breakpoint */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
+  .navbar-title-text {
+    font-size: 1.2rem;
+  }
 }
 
 /* Medium breakpoint */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 }
 
 /* Large breakpoint */
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
 }
 
 /* Extra large breakpoint */
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
 }

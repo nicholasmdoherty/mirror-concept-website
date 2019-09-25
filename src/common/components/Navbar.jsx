@@ -19,7 +19,7 @@ export default class Navbar extends Component {
   // ----------------------------------------------------------------------------------------------
 
   // The breakpoint for hiding / showing the navbar backgruond
-  hiddenBackgroundBreakpoint = 75;
+  hiddenBackgroundBreakpoint = 50;
 
   // The color code for the background of the navbar
   backgroundColor = "#333";
@@ -50,13 +50,21 @@ export default class Navbar extends Component {
         <div
           className="main-navbar"
           style={{
-            backgroundColor: hidden ? "transparent" : this.backgroundColor
+            backgroundColor: hidden ? "transparent" : this.backgroundColor,
+            boxShadow: hidden ? "none" : "0px 3px 5px 1px #222"
           }}
         >
-          <h4 className="m-0 p-2 pl-3" style={{ color: "#f8f9fa" }}>
-            Brand Name
+          <h4
+            className="m-0 pl-3 navbar-title-text"
+            style={{ color: "#f8f9fa" }}
+          >
+            SOCIAL MIRRORS
           </h4>
-          <Button size="sm" variant="outline-light" className="m-2 mr-3">
+          <Button
+            size="sm"
+            variant="outline-light"
+            className="m-2 mr-3 navbar-button"
+          >
             Pre-Order
           </Button>
         </div>

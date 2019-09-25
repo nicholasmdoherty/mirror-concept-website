@@ -7,10 +7,10 @@ export default class MainHeader extends Component {
     return (
       <Container className="main-header mr-0 ml-0">
         <Row className="main-header-content">
-          <Col xs={12} sm={6} className="content-text-column">
-            <h2 className="">JOIN THE FUTURE OF FASHION</h2>
+          <Col xs={12} sm={6} md={8} className="content-text-column">
+            <h2 className="content-text">JOIN THE FUTURE OF FASHION</h2>
           </Col>
-          <Col xs={12} sm={6} className="content-button-column">
+          <Col xs={12} sm={6} md={4} className="content-button-column">
             <Button size="lg" variant="outline-dark">
               Learn More
             </Button>
