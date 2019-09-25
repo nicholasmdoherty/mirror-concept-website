@@ -8,11 +8,7 @@
   align-items: center;
   height: 9vh;
   width: 100%;
-}
-
-.navbar-ghost {
-  height: 7vh;
-  width: 100%;
+  z-index: 1100;
 }
 
 /* Small breakpoint */

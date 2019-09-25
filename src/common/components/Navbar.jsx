@@ -19,7 +19,7 @@ export default class Navbar extends Component {
   // ----------------------------------------------------------------------------------------------
 
   // The breakpoint for hiding / showing the navbar backgruond
-  hiddenBackgroundBreakpoint = 200;
+  hiddenBackgroundBreakpoint = 75;
 
   // The color code for the background of the navbar
   backgroundColor = "#333";
