@@ -1,0 +1,65 @@
+.always-on-row {
+  background-color: rgba(100, 100, 255, 0.7);
+  box-shadow: 0px 0px 1px 1px rgba(100, 100, 255, 0.7);
+  z-index: 1001;
+  margin-bottom: 0.1rem;
+}
+
+.always-on-image {
+  max-width: 100%;
+  height: auto;
+  border: black solid 2px;
+}
+
+.always-on-header {
+  font-size: 4rem;
+}
+
+.always-on-text-col {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  padding-left: 4rem;
+}
+
+.always-on-image-col {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem;
+  padding-right: 4rem;
+}
+
+/* Small breakpoint */
+@media screen and (max-width: 576px) {
+}
+
+/* Medium breakpoint */
+@media screen and (max-width: 768px) {
+  .always-on-image-col {
+    justify-content: center;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .always-on-text-col {
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+
+  .always-on-image {
+    max-width: 85vw;
+  }
+
+  .always-on-header {
+    font-size: 3rem;
+  }
+}
+
+/* Large breakpoint */
+@media screen and (max-width: 992px) {
+}
+
+/* Extra large breakpoint */
+@media screen and (max-width: 1200px) {
+}

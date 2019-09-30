@@ -1,0 +1,65 @@
+.sustainable-shopping-row {
+  background-color: rgba(212, 103, 0, 0.7);
+  box-shadow: 0px 0px 1px 1px rgb(202, 175, 150, 0.7);
+  margin-top: 0.1rem;
+}
+
+.sustainable-shopping-image {
+  max-width: 100%;
+  height: auto;
+  border: black solid 2px;
+}
+
+.sustainable-shopping-header {
+  font-size: 4rem;
+}
+
+.sustainable-shopping-text-col {
+  color: white;
+  display: flex;
+  text-align: right;
+  align-items: center;
+  padding: 2rem;
+  padding-right: 4rem;
+}
+
+.sustainable-shopping-image-col {
+  display: flex;
+  justify-content: flex-start;
+  padding: 2rem;
+  padding-left: 4rem;
+}
+
+/* Small breakpoint */
+@media screen and (max-width: 576px) {
+}
+
+/* Medium breakpoint */
+@media screen and (max-width: 768px) {
+  .sustainable-shopping-image-col {
+    justify-content: center;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .sustainable-shopping-text-col {
+    padding-top: 1rem;
+    padding-right: 2rem;
+  }
+
+  .sustainable-shopping-image {
+    max-width: 85vw;
+  }
+
+  .sustainable-shopping-header {
+    font-size: 3rem;
+  }
+}
+
+/* Large breakpoint */
+@media screen and (max-width: 992px) {
+}
+
+/* Extra large breakpoint */
+@media screen and (max-width: 1200px) {
+}
