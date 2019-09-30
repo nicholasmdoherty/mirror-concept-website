@@ -33,6 +33,16 @@
   color: #343a40;
 }
 
+.cta-button {
+  font-size: 5rem;
+  color: #343a40;
+}
+
+.cta-button:hover {
+  color: rgba(100, 100, 255, 0.9);
+  cursor: pointer;
+}
+
 /* Small breakpoint */
 @media screen and (max-width: 576px) {
   .content-button-column {
@@ -41,6 +51,11 @@
 
   .content-text-column {
     text-align: center;
+  }
+
+  .cta-button {
+    font-size: 3rem;
+    padding-bottom: 0;
   }
 }
 
