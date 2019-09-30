@@ -61,7 +61,7 @@ export default class Navbar extends Component {
             SOCIAL MIRRORS
           </h4>
           <Button size="sm" variant="light" className="m-2 mr-3 navbar-button">
-            Pre-Order
+            Join Waitlist
           </Button>
         </div>
       </div>
