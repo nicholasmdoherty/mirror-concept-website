@@ -1,7 +1,13 @@
 .hero-image {
   margin-top: -10vh;
   max-width: 85vw;
+  height: auto;
   border: black solid 4px;
+}
+
+.hero-caption-font {
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 .hero-image-wrapper {
@@ -14,4 +20,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Small breakpoint */
+@media screen and (max-width: 576px) {
+}
+
+/* Medium breakpoint */
+@media screen and (max-width: 768px) {
+  .hero-caption-font {
+    font-size: 1.75rem;
+  }
+}
+
+/* Large breakpoint */
+@media screen and (max-width: 992px) {
+}
+
+/* Extra large breakpoint */
+@media screen and (max-width: 1200px) {
 }
