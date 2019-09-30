@@ -12,3 +12,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.roboto-font {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.quicksand-font {
+  font-family: "Quicksand", sans-serif;
+}
+
+.abel-font {
+  font-family: "Abel", sans-serif;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
