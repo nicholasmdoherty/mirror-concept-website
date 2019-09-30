@@ -42,6 +42,14 @@ export default class Navbar extends Component {
     });
   }
 
+  scrollToWaitlistForm() {
+    window.scroll({
+      left: 0,
+      top: document.getElementById("waitlist-form").offsetTop - 50,
+      behavior: "smooth"
+    });
+  }
+
   render() {
     let { hidden } = this.state;
 
@@ -60,7 +68,12 @@ export default class Navbar extends Component {
           >
             SOCIAL MIRRORS
           </h4>
-          <Button size="sm" variant="light" className="m-2 mr-3 navbar-button">
+          <Button
+            onClick={this.scrollToWaitlistForm}
+            size="sm"
+            variant="light"
+            className="m-2 mr-3 navbar-button"
+          >
             Join Waitlist
           </Button>
         </div>
