@@ -31,7 +31,7 @@ export default class AlwaysOn extends Component {
           <Col className="always-on-image-col" xs={12} md={6}>
             <Image
               className="always-on-image"
-              src="/assets/img/placeholder.png"
+              src="/assets/img/always-on.png"
               fluid
             />
           </Col>

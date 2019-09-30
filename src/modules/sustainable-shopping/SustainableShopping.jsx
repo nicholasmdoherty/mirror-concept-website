@@ -10,7 +10,7 @@ export default class SustainableShopping extends Component {
           <Col className="sustainable-shopping-image-col" xs={12} md={6}>
             <Image
               className="sustainable-shopping-image"
-              src="/assets/img/placeholder.png"
+              src="/assets/img/shop.png"
               fluid
             />
           </Col>
