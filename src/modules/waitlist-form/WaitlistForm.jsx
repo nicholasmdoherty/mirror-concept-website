@@ -5,7 +5,7 @@ import "./waitlist-form.css";
 export default class WaitlistForm extends Component {
   render() {
     return (
-      <Container className="pt-5" id="waitlist-form">
+      <Container className="pt-5 pb-5" id="waitlist-form">
         <h1 className="roboto-font fw-700 waitlist-form-title">
           {" "}
           SOCIALMIRROR WAITLIST FORM
