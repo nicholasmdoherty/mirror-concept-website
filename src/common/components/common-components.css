@@ -20,10 +20,25 @@
   font-weight: 600;
 }
 
+.main-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  font-size: 0.7rem;
+  margin: 0px;
+}
+
 /* Small breakpoint */
 @media screen and (max-width: 576px) {
   .navbar-title-text {
     font-size: 1.2rem;
+  }
+
+  .footer-text {
+    font-size: 0.5rem;
   }
 }
 
