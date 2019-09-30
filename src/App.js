@@ -6,6 +6,7 @@ import AlwaysOn from "./modules/always-on/AlwaysOn";
 import SustainableShopping from "./modules/sustainable-shopping/SustainableShopping";
 import WaitlistForm from "./modules/waitlist-form/WaitlistForm";
 import Footer from "./common/components/Footer";
+import StyleExploration from "./modules/style-exploration/StyleExploration";
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       <body>
         <MainHeader />
         <HeroImagesFeatures />
-        <AlwaysOn />
+        <StyleExploration />
         <SustainableShopping />
+        <AlwaysOn />
         <WaitlistForm />
       </body>
       <Footer />
