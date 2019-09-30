@@ -14,17 +14,18 @@ export default class StyleExploration extends Component {
                 STYLE EXPLORATION{" "}
               </h2>
               <p>
-                When plugged in, the SocialMirror is always connected to the
-                SocialMirror network and the features that come with it. Your
-                profile and saved outfits will always be visible to friends, who
-                can share your style or use your as inspiration. If you decide
-                to make your profile public, you may show up as a trending Style
-                Icon when recieving a lot of attention on an outfit.
+                Explore your personal style by browsing the profiles of trending
+                Style Icons on the system, and see how they incorporate certain
+                trends or pieces into their outfits. Also look through brands
+                and clothing recommended to you based on your currently uploaded
+                wardrobe.
               </p>
               <p>
-                Want to get dressed and ready with your friends but need to be
-                at home? You can also "drop-in" on your friends with real-time
-                audio or video calling through your SocialMirror.
+                Try on styles before you buy the pieces with our proprietary AR
+                technology that shows you in real time what you'd look like
+                wearing a certain piece of clothing. Now you'll know for sure
+                that those clothes will look good on you before buying them
+                online.
               </p>
             </div>
           </Col>
