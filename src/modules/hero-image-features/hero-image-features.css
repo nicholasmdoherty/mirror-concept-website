@@ -1,0 +1,17 @@
+.hero-image {
+  margin-top: -10vh;
+  max-width: 85vw;
+  border: black solid 4px;
+}
+
+.hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-col {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

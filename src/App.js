@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./common/components/Navbar";
 import MainHeader from "./modules/main-header/MainHeader";
+import HeroImagesFeatures from "./modules/hero-image-features/HeroImagesFeatures";
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
       <header className="App-header">
         <Navbar />
         <MainHeader />
-        <div style={{ height: "300vh", backgroundColor: "#fafafa" }} />
+        <HeroImagesFeatures />
+        <div style={{ height: "300vh", backgroundColor: "black" }} />
       </header>
     </div>
   );
