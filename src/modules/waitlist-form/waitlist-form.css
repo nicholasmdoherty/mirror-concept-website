@@ -1,0 +1,27 @@
+.waitlist-form-title {
+  font-size: 3.5rem;
+}
+
+.waitlist-form-button {
+  background-color: rgba(100, 100, 255, 0.7);
+  outline-color: rgba(100, 100, 255, 0.7);
+}
+
+/* Small breakpoint */
+@media screen and (max-width: 576px) {
+}
+
+/* Medium breakpoint */
+@media screen and (max-width: 768px) {
+  .waitlist-form-title {
+    font-size: 2rem;
+  }
+}
+
+/* Large breakpoint */
+@media screen and (max-width: 992px) {
+}
+
+/* Extra large breakpoint */
+@media screen and (max-width: 1200px) {
+}

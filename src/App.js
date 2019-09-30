@@ -4,6 +4,7 @@ import MainHeader from "./modules/main-header/MainHeader";
 import HeroImagesFeatures from "./modules/hero-image-features/HeroImagesFeatures";
 import AlwaysOn from "./modules/always-on/AlwaysOn";
 import SustainableShopping from "./modules/sustainable-shopping/SustainableShopping";
+import WaitlistForm from "./modules/waitlist-form/WaitlistForm";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <HeroImagesFeatures />
         <AlwaysOn />
         <SustainableShopping />
-        <div style={{ height: "300vh", backgroundColor: "black" }} />
+        <WaitlistForm />
       </header>
     </div>
   );
