@@ -14,13 +14,17 @@ export default class AlwaysOn extends Component {
                 ALWAYS CONNECTED{" "}
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                When plugged in, the SocialMirror is always connected to the
+                SocialMirror network and the features that come with it. Your
+                profile and saved outfits will always be visible to friends, who
+                can share your style or use your as inspiration. If you decide
+                to make your profile public, you may show up as a trending Style
+                Icon when recieving a lot of attention on an outfit.
+              </p>
+              <p>
+                Want to get dressed and ready with your friends but need to be
+                at home? You can also "drop-in" on your friends with real-time
+                audio or video calling through your SocialMirror.
               </p>
             </div>
           </Col>
@@ -28,6 +32,7 @@ export default class AlwaysOn extends Component {
             <Image
               className="always-on-image"
               src="/assets/img/placeholder.png"
+              fluid
             />
           </Col>
         </Row>

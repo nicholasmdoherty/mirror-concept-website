@@ -6,8 +6,6 @@
 }
 
 .always-on-image {
-  max-width: 100%;
-  height: auto;
   border: black solid 2px;
 }
 
@@ -25,6 +23,7 @@
 
 .always-on-image-col {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
   padding: 2rem;
   padding-right: 4rem;

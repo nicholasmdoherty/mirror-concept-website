@@ -5,8 +5,6 @@
 }
 
 .sustainable-shopping-image {
-  max-width: 100%;
-  height: auto;
   border: black solid 2px;
 }
 
@@ -25,6 +23,7 @@
 
 .sustainable-shopping-image-col {
   display: flex;
+  align-items: center;
   justify-content: flex-start;
   padding: 2rem;
   padding-left: 4rem;
@@ -45,10 +44,6 @@
   .sustainable-shopping-text-col {
     padding-top: 1rem;
     padding-right: 2rem;
-  }
-
-  .sustainable-shopping-image {
-    max-width: 85vw;
   }
 
   .sustainable-shopping-header {
