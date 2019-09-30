@@ -1,8 +1,9 @@
 .main-header {
-  background-image: url("/assets/img/header-clothing-image.jpeg");
+  background-image: url("/assets/img/header.JPG");
   height: 85vh;
   background-size: cover;
   background-position-x: center;
+  background-position-y: center;
   display: flex;
   align-items: center;
   justify-content: center;
