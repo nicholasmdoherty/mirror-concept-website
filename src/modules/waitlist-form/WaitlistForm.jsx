@@ -1,8 +1,25 @@
 import React, { Component } from "react";
+// @ts-ignore
 import { Container, Row, Form, Col, Button } from "react-bootstrap";
+import Swal from "sweetalert2";
 import "./waitlist-form.css";
 
 export default class WaitlistForm extends Component {
+  handleSubmitButton() {
+    Swal.fire({
+      title: "Added to waitlist",
+      type: "success"
+    });
+
+    // Ignore the warning here, we want to directly reset the values to empty.
+    // @ts-ignore
+    document.getElementById("firstname-form").value = "";
+    // @ts-ignore
+    document.getElementById("lastname-form").value = "";
+    // @ts-ignore
+    document.getElementById("email-form").value = "";
+  }
+
   render() {
     return (
       <Container className="pt-5 pb-5" id="waitlist-form">
@@ -20,17 +37,17 @@ export default class WaitlistForm extends Component {
           <Form.Row>
             <Col xs={12} sm={6} className="p-2">
               <Form.Label>First Name</Form.Label>
-              <Form.Control placeholder="First name" />
+              <Form.Control id="firstname-form" placeholder="First name" />
             </Col>
             <Col xs={12} sm={6} className="p-2">
               <Form.Label> Last Name </Form.Label>
-              <Form.Control placeholder="Last name" />
+              <Form.Control id="lastname-form" placeholder="Last name" />
             </Col>
           </Form.Row>
           <Form.Row>
             <Col xs={12} className="p-2">
               <Form.Label>Email</Form.Label>
-              <Form.Control placeholder="Email" />
+              <Form.Control id="email-form" placeholder="Email" />
             </Col>
           </Form.Row>
           <Form.Row>
@@ -38,6 +55,7 @@ export default class WaitlistForm extends Component {
               <Button
                 className="mt-3 ml-1 waitlist-form-button"
                 variant="outline-light"
+                onClick={this.handleSubmitButton}
               >
                 Submit
               </Button>

@@ -21,11 +21,11 @@ export default class StyleExploration extends Component {
                 wardrobe.
               </p>
               <p>
-                Try on styles before you buy the pieces with our proprietary AR
-                technology that shows you in real time what you'd look like
-                wearing a certain piece of clothing. Now you'll know for sure
-                that those clothes will look good on you before buying them
-                online.
+                Try on styles before you buy the pieces with our proprietary
+                augmented reality technology that shows you in real time what
+                you'd look like wearing a certain piece of clothing. Now you'll
+                know for sure that those clothes will look good on you before
+                buying them online.
               </p>
             </div>
           </Col>
