@@ -32,7 +32,7 @@ export default class StyleExploration extends Component {
           <Col className="style-exploration-image-col" xs={12} md={6}>
             <Image
               className="style-exploration-image"
-              src="/assets/img/placeholder.png"
+              src="/assets/img/style-exploration.png"
               fluid
             />
           </Col>
