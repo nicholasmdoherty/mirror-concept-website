@@ -22,8 +22,8 @@ export default class StyleExploration extends Component {
               </p>
               <p>
                 Try on styles before you buy the pieces with our proprietary
-                augmented reality technology that shows you in real time what
-                you'd look like wearing a certain piece of clothing. Now you'll
+                augmented reality technology that shows what you'd look like
+                wearing a certain piece of clothing in real time. Now you'll
                 know for sure that those clothes will look good on you before
                 buying them online.
               </p>

@@ -17,9 +17,10 @@ export default class AlwaysOn extends Component {
                 When plugged in, the SocialMirror is always connected to the
                 SocialMirror network and the features that come with it. Your
                 profile and saved outfits will always be visible to friends, who
-                can share your style or use your as inspiration. If you decide
-                to make your profile public, you may show up as a trending Style
-                Icon when recieving a lot of attention on an outfit.
+                can share your style or use your outfits as inspiration. If you
+                decide to make your profile public, you may show up as a
+                trending Style Icon when recieving a lot of attention on a
+                specific outfit.
               </p>
               <p>
                 Want to get dressed and ready with your friends but need to be
