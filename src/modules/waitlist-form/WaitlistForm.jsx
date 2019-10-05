@@ -25,12 +25,13 @@ export default class WaitlistForm extends Component {
       <Container className="pt-5 pb-5" id="waitlist-form">
         <h1 className="roboto-font fw-700 waitlist-form-title">
           {" "}
-          SOCIALMIRROR WAITLIST FORM
+          SOCIALMIRROR WAITLIST
         </h1>
         <hr />
         <p className="lead">
-          Sign up for our waitlist to be the first to hear about SocialMirror
-          updates and when you can get your hands on one.
+          Sign up for Reflashion Inc's email list for the latest product updates
+          and the latest news on when you can get your hands on a SocialMirror.
+          You'll be the first to hear about it.
         </p>
 
         <Form>
@@ -48,6 +49,9 @@ export default class WaitlistForm extends Component {
             <Col xs={12} className="p-2">
               <Form.Label>Email</Form.Label>
               <Form.Control id="email-form" placeholder="Email" />
+              <p className="pt-1 pb-0">
+                &nbsp; We'll never send you spam, just great updates.
+              </p>
             </Col>
           </Form.Row>
           <Form.Row>

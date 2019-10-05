@@ -10,8 +10,9 @@ export default class HeroImage extends Component {
           <div className="text-center">
             <Image className="hero-image" src="/assets/img/hero-image.png" />
             <p className="hero-caption-font abel-font p-3">
-              SocialMirror is a smart mirror that connects to the world's first
-              of it's kind peer-to-peer fashion network.
+              SocialMirror is an innovative new smart mirror from Reflashion
+              Inc. that connects the user to the world's first of it's kind
+              peer-to-peer fashion network.
             </p>
           </div>
         </Col>

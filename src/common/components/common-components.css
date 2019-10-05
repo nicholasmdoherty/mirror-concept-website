@@ -16,6 +16,11 @@
   font-size: 2rem;
 }
 
+.navbar-company-font {
+  font-weight: 700;
+  font-size: 0.5rem;
+}
+
 .navbar-button {
   font-weight: 600;
 }
@@ -39,6 +44,10 @@
 
   .footer-text {
     font-size: 0.5rem;
+  }
+
+  .navbar-company-font {
+    font-size: 0.25rem;
   }
 }
 

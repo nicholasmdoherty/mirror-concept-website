@@ -62,12 +62,21 @@ export default class Navbar extends Component {
             boxShadow: hidden ? "none" : "0px 3px 5px 1px #222"
           }}
         >
-          <h4
-            className="m-0 pl-3 navbar-title-text"
-            style={{ color: "#f8f9fa" }}
-          >
-            SOCIAL MIRRORS
-          </h4>
+          <div>
+            <h4
+              className="m-0 pl-3 navbar-title-text"
+              style={{ color: "#f8f9fa" }}
+            >
+              SOCIALMIRROR
+            </h4>
+            <p
+              className="m-0 pl-3 navbar-company-font"
+              style={{ color: "#f8f9fa" }}
+            >
+              by Reflashion Inc.
+            </p>
+          </div>
+
           <Button
             onClick={this.scrollToWaitlistForm}
             size="sm"
